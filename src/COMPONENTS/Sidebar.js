@@ -12,7 +12,6 @@ export default function Sidebar() {
     let location = useLocation();
 
     useEffect(() => {
-        console.log(location.pathname);
     }, [location]);
 
     const [sidebar, setSidebar] = useState(false);
