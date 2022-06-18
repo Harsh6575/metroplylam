@@ -7,7 +7,6 @@ import './Sidebar.css';
 import { IconContext } from 'react-icons';
 
 
-
 export default function Sidebar() {
 
     let location = useLocation();
@@ -23,17 +22,19 @@ export default function Sidebar() {
     return (
         <IconContext.Provider value={{ color: '#fff' }}>
             <div className="nav-bar">
-                <span className="logo navLogo">Metro Ply Lam</span>
                 <div className="sidebaropen">
-                    <HiMenu onClick={showSidebar} />
+                    <HiMenu color='inherit' onClick={showSidebar} />
                 </div>
+                <span className="logo navLogo">
+                     Metro Ply Lam
+                </span>
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                     <ul className='nav-links' onClick={showSidebar}>
                         <li className="sidebarclose">
-                            <span className="logo navLogo">Metro Ply Lam</span>
                             <Link to='#' className='menu-bars'>
-                                <HiX />
+                                <HiX color='inherit'/>
                             </Link>
+                            <span className="logo navLogo">Metro Ply Lam</span>
                         </li>
                         <li className='nav-li'>
                             <Link to='/' className={`menu-links ${location.pathname === "/" ? "active" : ""}`}>Home</Link>
