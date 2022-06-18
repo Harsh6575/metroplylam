@@ -15,6 +15,10 @@
     display: flex;
 }
 
+.navLogo{
+    font-size: 25px;
+}
+
 /* NAVBAR UL */
 
 .nav-links {
@@ -76,6 +80,11 @@
     display: none;
 }       
 
+.btn-con{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* MEDIA QUERY */
 
 
@@ -89,11 +98,12 @@
 
     .navLogo{
         padding: 0px 10px;
+        font-size: 23px;
+        align-content: center;
     }
 
     .sidebaropen {
         display: block;
-        float: left;
     }
 
     .sidebarclose {
@@ -102,13 +112,13 @@
         height: 80px;
         display: flex;
         justify-content: space-between;
-        padding: 15px;
+        padding: 10px 13px;
         align-items: center;
     }
 
-    .sidebarclose>.navLogo {
-        font-size: 20px;
-        font-weight: bolder;
+    .sidebarclose>.logo{
+        font-size: 23px;
+        cursor: default;
     }
 
     .nav-menu {

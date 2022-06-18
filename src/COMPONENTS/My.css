@@ -1,27 +1,49 @@
-.f-container{
+/* FOOTER JS */
+
+.f-container {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
     margin: 10px 50px;
-    background-color: rgb(134, 109, 157);
-    border: 2px solid;
     padding: 5px;
-    text-align: center;
 }
 
-.f-links{
+.f-links {
     color: inherit;
     text-decoration: none;
 }
 
+.q-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.q-l:hover{
+    color: black;
+    text-decoration: underline 2px;
+}
+
+.q-links>a {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: start;
+}
+
+.last-line {
+    text-align: center;
+}
 
 @media (max-width: 500px) {
-    .f-container{
+    .f-container {
         margin: 10px 30px;
         padding: 5px;
-    }    
+    }
 }
 
 @media (max-width: 325px) {
-    .f-container{
+    .f-container {
         margin: 10px 15px;
         padding: 5px;
-    }    
+    }
 }

@@ -7,7 +7,7 @@ export default function Sitemap() {
             Home
         </div>
         <div>
-            Services
+            Products
         </div>
         <div>
             Contact
