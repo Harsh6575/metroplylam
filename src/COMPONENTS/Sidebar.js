@@ -39,7 +39,7 @@ export default function Sidebar() {
                             <Link to='/' className={`menu-links ${location.pathname === "/" ? "active" : ""}`}>Home</Link>
                         </li>
                         <li className='nav-li'>
-                            <Link to='/Services' className={`menu-links ${location.pathname === "/Services" ? "active" : ""}`}>Services</Link>
+                            <Link to='/Products' className={`menu-links ${location.pathname === "/Products" ? "active" : ""}`}>Products</Link>
                         </li>
                         <li className='nav-li'>
                             <Link to='/Contact' className={`menu-links ${location.pathname === "/Contact" ? "active" : ""}`}>Contact</Link>

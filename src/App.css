@@ -12,8 +12,9 @@
 .App {
     min-height: 100vh;
     min-width: 100vw;
-    background-color: #00AAAC;
-    color: #6E0070;
+    background-color: rgb(231, 230, 241);
+    color: rgb(64, 6, 119);
+    /* color: #6E0070; */
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -9,3 +9,7 @@ romani
 impressa
 1+
 black velvet
+
+
+    background-color: rgb(231, 230, 241);
+    color: rgb(64, 6, 119);
