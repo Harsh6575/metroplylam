@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom';
 
 import { HiMenu, HiX } from "react-icons/hi";
@@ -10,9 +10,6 @@ import { IconContext } from 'react-icons';
 export default function Sidebar() {
 
     let location = useLocation();
-
-    useEffect(() => {
-    }, [location]);
 
     const [sidebar, setSidebar] = useState(false);
 
