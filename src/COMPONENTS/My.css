@@ -1,8 +1,8 @@
 /* PLYWOOD JS */
 
-.ply-name{
-    border-top:2px solid;
-    border-bottom:2px solid;
+.ply-name {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
     text-align: center;
     padding: 4px;
 }
@@ -31,7 +31,7 @@
     margin-bottom: 20px;
 }
 
-.q-l:hover{
+.q-l:hover {
     color: black;
     text-decoration: underline 2px;
 }
@@ -44,13 +44,6 @@
 
 .last-line {
     text-align: center;
-}
-
-
-@media (max-width: 790px) {
-    .q-l{
-        display: none;
-    }
 }
 
 @media (max-width: 500px) {
