@@ -8,9 +8,9 @@ export default function Footer() {
             <div>
                 Quicklinks
                 <div className='q-links'>
-                    <Link href='/' className='q-l'>Home</Link>
-                    <Link href='/Products' className='q-l'>Products</Link>
-                    <Link href='/Contact' className='q-l'>Contact</Link>
+                    <Link to='/' className='q-l'>Home</Link>
+                    <Link to='/Products' className='q-l'>Products</Link>
+                    <Link to='/Contact' className='q-l'>Contact</Link>
                 </div>
             </div>
             <div className='last-line'>
