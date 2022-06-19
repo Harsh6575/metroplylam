@@ -1,5 +1,6 @@
 import './My.css'
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 export default function Footer() {
     return (
@@ -7,9 +8,9 @@ export default function Footer() {
             <div>
                 Quicklinks
                 <div className='q-links'>
-                    <a href='/' className='q-l'>Home</a>
-                    <a href='/Products' className='q-l'>Products</a>
-                    <a href='/Contact' className='q-l'>Contact</a>
+                    <Link href='/' className='q-l'>Home</Link>
+                    <Link href='/Products' className='q-l'>Products</Link>
+                    <Link href='/Contact' className='q-l'>Contact</Link>
                 </div>
             </div>
             <div className='last-line'>
