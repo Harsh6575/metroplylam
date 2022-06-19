@@ -46,6 +46,13 @@
     text-align: center;
 }
 
+
+@media (max-width: 790px) {
+    .q-l{
+        display: none;
+    }
+}
+
 @media (max-width: 500px) {
     .f-container {
         margin: 10px 30px;

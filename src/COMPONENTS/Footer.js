@@ -4,7 +4,7 @@ import React from 'react';
 export default function Footer() {
     return (
         <div className='f-container'>
-            <div>
+            <div className='q-l'>
                 Quicklinks
                 <div className='q-links'>
                     <a href='/' className='q-l'>Home</a>
