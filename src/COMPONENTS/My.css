@@ -1,3 +1,15 @@
+/* PLYWOOD JS */
+
+.ply-name{
+    border-top:2px solid;
+    border-bottom:2px solid;
+    text-align: center;
+    padding: 4px;
+}
+
+
+/* PLYWOOD ENDS */
+
 /* FOOTER JS */
 
 .f-container {
@@ -47,3 +59,5 @@
         padding: 5px;
     }
 }
+
+/* FOOTER ENDS */
