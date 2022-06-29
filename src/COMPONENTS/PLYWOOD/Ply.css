@@ -1,4 +1,4 @@
-.p-s-c{
-    display:flex;
-    justify-content:space-between;
+.p-s-c {
+    display: grid;
+    gap: 20px;
 }
